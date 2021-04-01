@@ -1,0 +1,1 @@
+cmd_/home/hlafi98/kernel_linked_list/Module.symvers := sed 's/ko$$/o/' /home/hlafi98/kernel_linked_list/modules.order | scripts/mod/modpost  -a   -o /home/hlafi98/kernel_linked_list/Module.symvers -e -i Module.symvers   -T -
